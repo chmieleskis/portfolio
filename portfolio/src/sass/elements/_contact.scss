@@ -1,0 +1,43 @@
+.contact {
+    @include info;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .fa-times-circle {
+        position: absolute;
+        font-size: 2rem;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+    h2 {
+        display: inline-block;
+        font-weight: 700;
+        margin-bottom: 10rem;
+    }
+    span {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            display: flex;
+            align-items: center;
+            i {
+                cursor: pointer;
+            }
+            p {
+                font-family: $kodchasan;
+                font-size: 2rem;
+                display: inline-block;
+                padding-left: 1rem;
+                cursor: pointer;
+            }
+        }
+        i {
+            cursor: pointer;
+        }
+    }
+}

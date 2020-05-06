@@ -1,0 +1,22 @@
+.mainSection {
+    width: 100vw;
+    height: calc(100vh - 8rem);
+    background-color: $blue;
+    position: relative;
+    text-align: center;
+    h1 {
+        font-family: $audiowide;
+        font-size: 5rem;
+        line-height: 30rem;
+        color: white;
+        box-sizing: border-box;
+        padding-right: 20%;
+    }
+    h3 {
+        font-family: $audiowide;
+        font-size: 3.5rem;
+        color: white;
+        box-sizing: border-box;
+        padding-left: 20%;
+    }
+}
