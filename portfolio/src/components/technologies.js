@@ -4,7 +4,7 @@ class Technologies extends Component {
  render() {
      return (
          <div className='technologies'>
-             <i class="far fa-times-circle"></i>
+             <i class="far fa-times-circle" onClick={this.props.close}/>
              <h2>Technologies</h2>
              <span>
                 <i class="fab fa-html5"/>
