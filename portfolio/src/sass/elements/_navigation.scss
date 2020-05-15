@@ -1,5 +1,5 @@
 
-    .navigation {
+.navigation {
         height: 8rem;
         width: 100vw;
         display: flex;
@@ -19,11 +19,10 @@
                 transition: 0.4s;
                 .nav-label {
                     width: 17vw;
-                    transition-delay: 0.4s;
-                    transition-duration: 0.6s;
+                    transition: width 0.6s linear 0.4s;
                     visibility: visible;
                     p {
-                        transition-delay: .5s;
+                        transition-delay: .9s;
                         opacity: 1;
                     }                    
                 }
@@ -36,31 +35,31 @@
             &:first-of-type {
                 margin-left: 0;
             };
-            .nav-label {
-                width: 0rem;
-                height: 8rem;
-                background-color: $red;
-                display: inline-block;
-                position: absolute;
-                top: 0;
-                border-bottom-right-radius: 90px;
-                line-height: 8rem;
-                font-size: 2.2rem;
-                color: white;
-                visibility: hidden;
-                text-align: left;
-                p {
-                    opacity: 0;
-                }
-            };
-            .nav-realisations {
-                left: 8rem;
-            };
-            .nav-technologies {
-                left: calc(33.3vw + 8rem);
-            };
-            .nav-contact {
-                left: calc(66.6vw + 8rem);
-            };
+        .nav-label {
+            width: 0rem;
+            height: 8rem;
+            background-color: $red;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            border-bottom-right-radius: 90px;
+            line-height: 8rem;
+            font-size: 2.2rem;
+            color: white;
+            visibility: hidden;
+            text-align: left;
+            p {
+                opacity: 0;
+            }
         };
-    }
+        .nav-realisations {
+            left: 8rem;
+        };
+        .nav-technologies {
+            left: calc(33.3vw + 8rem);
+        };
+        .nav-contact {
+            left: calc(66.6vw + 8rem);
+        };
+    };
+}

@@ -4,19 +4,44 @@
     background-color: $blue;
     position: relative;
     text-align: center;
+    position: relative;
     h1 {
         font-family: $audiowide;
         font-size: 5rem;
-        line-height: 30rem;
+        line-height: 6rem;
         color: white;
         box-sizing: border-box;
-        padding-right: 20%;
+        padding: 12.5% 20% 7.5% 0;
+        z-index: 150;
     }
     h3 {
         font-family: $audiowide;
         font-size: 3.5rem;
+        line-height:4.5rem;
         color: white;
         box-sizing: border-box;
         padding-left: 20%;
+        z-index: 150;
+    };
+    .wave {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 50vh;
+        height: 50vh;
+        background-image: url('../../assets/wave.gif');
+        background-position: center;
+        background-size: cover;
+
+    };
+    .snot {
+        width: 85vh;
+        height: 85vh;
+        background-image: url('../../assets/snot.gif');
+        background-size: cover;
+        transform: rotate(135deg);
+        position: absolute;
+        right: -30vh;
+        bottom: -30vh;
     }
 }

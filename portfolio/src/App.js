@@ -51,15 +51,18 @@ handleClose = () => {
     return (
       <>
         <Navigation
-            realisations={this.handleRealisations}
-            technologies={this.handleTechnologies}
-            contact={this.handleContact}
+            realisations={this.state.realisationsIsOpen} 
+            technologies={this.state.technologiesIsOpen}
+            contact={this.state.contactIsOpen}
+            handleRealisations={this.handleRealisations}
+            handleTechnologies={this.handleTechnologies}
+            handleContact={this.handleContact}
         />
         <MainSection 
             realisations={this.state.realisationsIsOpen} 
             technologies={this.state.technologiesIsOpen}
             contact={this.state.contactIsOpen}
-            close={this.handleClose}
+            handleClose={this.handleClose}
         />
       </>
     );
