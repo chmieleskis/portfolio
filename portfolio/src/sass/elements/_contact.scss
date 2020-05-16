@@ -56,5 +56,6 @@
 }
 .active {
     height: 80%;
-    transition: 1s
+    width: 80%;
+    transition: width 2s, height 2s;
 }

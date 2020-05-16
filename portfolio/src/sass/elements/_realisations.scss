@@ -1,4 +1,4 @@
-.realisations {
+.realizations {
     @include info;
     font-size: 4rem;
     color: white;
@@ -36,5 +36,6 @@
 }
 .active {
     height: 80%;
-    transition: 1s
+    width: 80%;
+    transition: width 1.5s, height 1.5s;
 }

@@ -1,24 +1,24 @@
 import React, {Component} from "react";
 import classNames from 'classnames'
 
-class Realisations extends Component {
+class Realizations extends Component {
  render() {
 
-    const realisationsClasses = classNames({
-        'realisations': true,
-        'active': this.props.realisations
+    const realizationsClasses = classNames({
+        'realizations': true,
+        'active': this.props.realizations
    });
 
    const contentClasses = classNames({
        'content': true,
-       'visible': this.props.realisations
+       'visible': this.props.realizations
    });
 
      return (
-         <div className={realisationsClasses}>
+         <div className={realizationsClasses}>
              <span className={contentClasses}>
                 <i class="far fa-times-circle" onClick={this.props.handleClose}/>
-                <h2>Realisations</h2>
+                <h2>Realizations</h2>
                 <span>
                     Tu będzie karuzela, jak ją już napiszę.
                 </span>
@@ -28,4 +28,4 @@ class Realisations extends Component {
  }
 }
 
-export default Realisations
+export default Realizations

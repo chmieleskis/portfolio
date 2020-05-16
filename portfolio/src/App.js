@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Delay from 'react-delay';
+
 import './App.css';
 
 import Navigation from './components/navigation'
@@ -6,14 +8,14 @@ import MainSection from './components/mainSection'
 
 class App extends Component {
   state = {
-    realisationsIsOpen: false,
+    realizationsIsOpen: false,
     technologiesIsOpen: false,
     contactIsOpen: false
   };
 
-handleRealisations = () => {
+handleRealizations = () => {
   this.setState({
-    realisationsIsOpen: !this.state.realisationsIsOpen,
+    realizationsIsOpen: !this.state.realizationsIsOpen,
     technologiesIsOpen: false,
     contactIsOpen: false
   })
@@ -22,7 +24,7 @@ handleRealisations = () => {
 
 handleTechnologies = () => {
   this.setState({
-    realisationsIsOpen: false,
+    realizationsIsOpen: false,
     technologiesIsOpen: !this.state.technologiesIsOpen,
     contactIsOpen: false
   })
@@ -31,7 +33,7 @@ handleTechnologies = () => {
 
 handleContact = () => {
   this.setState({
-    realisationsIsOpen: false,
+    realizationsIsOpen: false,
     technologiesIsOpen: false,
     contactIsOpen: !this.state.contactIsOpen
   })
@@ -40,7 +42,7 @@ handleContact = () => {
 
 handleClose = () => {
   this.setState({
-    realisationsIsOpen: false,
+    realizationsIsOpen: false,
     technologiesIsOpen: false,
     contactIsOpen: false
   })
@@ -50,16 +52,18 @@ handleClose = () => {
   render() {
     return (
       <>
-        <Navigation
-            realisations={this.state.realisationsIsOpen} 
-            technologies={this.state.technologiesIsOpen}
-            contact={this.state.contactIsOpen}
-            handleRealisations={this.handleRealisations}
-            handleTechnologies={this.handleTechnologies}
-            handleContact={this.handleContact}
-        />
+        <Delay wait={3000}>
+          <Navigation 
+              realizations={this.state.realizationsIsOpen} 
+              technologies={this.state.technologiesIsOpen}
+              contact={this.state.contactIsOpen}
+              handleRealizations={this.handleRealizations}
+              handleTechnologies={this.handleTechnologies}
+              handleContact={this.handleContact}
+          />
+        </Delay>
         <MainSection 
-            realisations={this.state.realisationsIsOpen} 
+            realizations={this.state.realizationsIsOpen} 
             technologies={this.state.technologiesIsOpen}
             contact={this.state.contactIsOpen}
             handleClose={this.handleClose}
