@@ -19,9 +19,7 @@ class Realizations extends Component {
              <span className={contentClasses}>
                 <i class="far fa-times-circle" onClick={this.props.handleClose}/>
                 <h2>Realizations</h2>
-                <span>
-                    Tu będzie karuzela, jak ją już napiszę.
-                </span>
+                <span>Tu będzie karuzela<br/>...<br/>...<br/>z madonnami</span>
             </span>
          </div>
      )
