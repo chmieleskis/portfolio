@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import classNames from 'classnames'
+import classNames from 'classnames';
+import Slider from './slider';
 
 class Realizations extends Component {
  render() {
@@ -19,7 +20,7 @@ class Realizations extends Component {
              <span className={contentClasses}>
                 <i class="far fa-times-circle" onClick={this.props.handleClose}/>
                 <h2>Realizations</h2>
-                <span>Tu będzie karuzela<br/>...<br/>...<br/>z madonnami</span>
+                <Slider/>
             </span>
          </div>
      )

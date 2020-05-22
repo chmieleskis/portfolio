@@ -36,8 +36,8 @@ class Contact extends Component {
                     <div onClick={this.handleCopyEmail}>
                     <i class="fas fa-at"></i><p>m.chmielewski@tut.by</p>
                     </div>
-                    <a target="_blank" href="#"><i class="fab fa-github-square"/></a>
-                    <a target="_blank" href="#"><i class="fab fa-linkedin"/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chmieleskis/"><i class="fab fa-github-square"/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-linkedin"/></a>
                 </span>
              </span>
          </div>

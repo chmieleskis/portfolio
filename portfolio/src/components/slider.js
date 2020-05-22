@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import ArrowLefr from './arrowLeft';
+import ArrowLeft from './arrowLeft';
 import ArrowRight from './arrowRight';
 import Slide from './slide';
+import landingData from './landingData'
 
 class Slider extends Component {
+    
     state = {
         activeIndex: 0,
         length: landingData.length
@@ -40,13 +42,9 @@ class Slider extends Component {
 render() {
     return (
         <div className='slider'>
-            <div className='slider-items'>
-                <ArrowLeft goToPrevSlide={() => this.goToPrevSlide()}/>
-            <div className='slider-text'>
-              <Slide activeIndex={this.state.activeIndex} />
-            </div>
-              <ArrowRight goToNextSlide={() => this.goToNextSlide()} />
-            </div>
+            <ArrowLeft goToPrevSlide={() => this.goToPrevSlide()}/>
+            <Slide activeIndex={this.state.activeIndex} onKeyDown={this.handleKeyDown}/>
+            <ArrowRight goToNextSlide={() => this.goToNextSlide()}/>
         </div>
         );
       }

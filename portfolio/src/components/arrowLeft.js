@@ -4,7 +4,7 @@ class ArrowLeft extends Component {
   render() {
     return(
       <div className='arrow-left' onClick={this.props.goToPrevSlide}>
-        <i className="fas fa-chevron-circle-left" aria-hidden='true'></i>
+        <i className="slider-arrow fas fa-chevron-circle-left" aria-hidden='true'></i>
       </div>
     )
   }
