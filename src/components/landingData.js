@@ -12,8 +12,8 @@ const landingData = [
     },
     {
         img: giveaway,
-        alt: 'Give Away platform',
-        website: '',
+        alt: 'Give Away Platform',
+        website: 'https://chmieleskis.github.io/give_away/',
         git: 'https://github.com/chmieleskis/give_away',
     },
     {
@@ -25,8 +25,8 @@ const landingData = [
     {
         img: bestshop,
         alt: 'Shop',
-        website: '',
-        git: '',
+        website: 'https://chmieleskis.github.io/project-1',
+        git: 'https://github.com/chmieleskis/project-1',
     }
 ];
 
