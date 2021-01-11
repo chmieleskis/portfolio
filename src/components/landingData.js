@@ -19,7 +19,7 @@ const landingData = [
     {
         img: currencycalculator,
         alt: 'Currency Calculator',
-        website: '',
+        website: 'https://chmieleskis.github.io/Currency_calculator/',
         git: 'https://github.com/chmieleskis/Currency_calculator',
     },
     {
