@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f737065.chunk.css",
+    "main.js": "/static/js/main.1f78d034.chunk.js",
+    "main.js.map": "/static/js/main.1f78d034.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/js/2.a0b6be27.chunk.js": "/static/js/2.a0b6be27.chunk.js",
+    "static/js/2.a0b6be27.chunk.js.map": "/static/js/2.a0b6be27.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3f737065.chunk.css.map": "/static/css/main.3f737065.chunk.css.map",
+    "static/js/2.a0b6be27.chunk.js.LICENSE.txt": "/static/js/2.a0b6be27.chunk.js.LICENSE.txt",
+    "static/media/bestshop.f2ce6585.png": "/static/media/bestshop.f2ce6585.png",
+    "static/media/currencycalculator2.cf5adb42.png": "/static/media/currencycalculator2.cf5adb42.png",
+    "static/media/giveaway.424539cf.png": "/static/media/giveaway.424539cf.png",
+    "static/media/paulina.57d9e4cd.png": "/static/media/paulina.57d9e4cd.png",
+    "static/media/main.scss": "/static/media/wave.2db4b25f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/js/2.a0b6be27.chunk.js",
+    "static/css/main.3f737065.chunk.css",
+    "static/js/main.1f78d034.chunk.js"
+  ]
+}
