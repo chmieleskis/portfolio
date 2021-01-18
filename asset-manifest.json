@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c85b60d1.chunk.css",
-    "main.js": "/portfolio/static/js/main.5d84dfb1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5d84dfb1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.14a88228.chunk.css",
+    "main.js": "/portfolio/static/js/main.16db9e7a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.16db9e7a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.a0b6be27.chunk.js": "/portfolio/static/js/2.a0b6be27.chunk.js",
     "static/js/2.a0b6be27.chunk.js.map": "/portfolio/static/js/2.a0b6be27.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.c85b60d1.chunk.css.map": "/portfolio/static/css/main.c85b60d1.chunk.css.map",
+    "static/css/main.14a88228.chunk.css.map": "/portfolio/static/css/main.14a88228.chunk.css.map",
     "static/js/2.a0b6be27.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a0b6be27.chunk.js.LICENSE.txt",
     "static/media/bestshop.f2ce6585.png": "/portfolio/static/media/bestshop.f2ce6585.png",
     "static/media/currencycalculator2.cf5adb42.png": "/portfolio/static/media/currencycalculator2.cf5adb42.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.a0b6be27.chunk.js",
-    "static/css/main.c85b60d1.chunk.css",
-    "static/js/main.5d84dfb1.chunk.js"
+    "static/css/main.14a88228.chunk.css",
+    "static/js/main.16db9e7a.chunk.js"
   ]
 }
