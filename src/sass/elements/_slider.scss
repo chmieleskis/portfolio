@@ -38,7 +38,7 @@
     .link{
         position: absolute;
         top: 0;
-        height: 97.5%;
+        height: 99.1%;
         width: 42.7%;
         opacity: 0;
         cursor: pointer;
@@ -47,6 +47,7 @@
         align-items: center;
         @media screen and (max-width: 768px) {
             opacity: 1;
+            height: 97.9%;
          }
         &:hover {
             opacity: 1;
