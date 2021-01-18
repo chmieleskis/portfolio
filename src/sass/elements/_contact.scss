@@ -3,7 +3,10 @@
     font-size: 3rem;
     color: white;
     z-index: 100;
-    .content{
+    @media screen and (max-width: 768px) {
+        @include info-mobile;
+    };
+    .content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -17,22 +20,34 @@
             top: 2rem;
             right: 2rem;
             cursor: pointer;
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            };
         }
         h2 {
             display: inline-block;
             font-weight: 700;
             margin-bottom: 10rem;
             font-size: 4rem;
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+                margin-bottom: 2.5rem;
+            };
         }
         span {
             width: 90%;
             display: flex;
             justify-content: space-evenly;
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+                align-items: center;
+            }
             div {
                 display: flex;
                 align-items: center;
                 i {
                     cursor: pointer;
+                    margin-bottom: 1rem;
                 }
                 p {
                     font-family: $kodchasan;
@@ -40,11 +55,17 @@
                     display: inline-block;
                     padding-left: 1rem;
                     cursor: pointer;
+                    @media screen and (max-width: 768px) {
+                        font-size: 1.2rem;;
+                    }
                 }
             }
             i {
                 cursor: pointer;
                 color: white;
+                @media screen and (max-width: 768px) {
+                    font-size: 1.5rem;
+                }
             }
         }
     }

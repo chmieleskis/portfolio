@@ -4,6 +4,10 @@
     width: 100vw;
     display: flex;
     position: relative;
+    @media screen and (max-width: 768px) {
+        height: 10rem;
+        flex-direction: column;
+    };
     li {
         height: 8rem;
         width: 8rem;
@@ -14,6 +18,14 @@
         margin-left: calc(33.3vw - 8rem);
         cursor: pointer;
         z-index: 1000;
+        @media screen and (max-width: 768px) {
+            height: 3rem;
+            width: 3rem;
+            margin-left: 0;
+            margin-bottom: .5rem;
+            border-top-left-radius: 45px;
+            border-bottom-right-radius: 0;
+        };
         @-webkit-keyframes fadein {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -41,17 +53,25 @@
                     opacity: 1;
                 }                    
             }
-        }
+        };
         .icon {
             line-height: 8rem;
             font-size: 2.2rem;
             color: white;
+            @media screen and (max-width: 768px) {
+                line-height: 4rem;
+                font-size: 1.2rem;
+            };
         };
         &:first-of-type {
             margin-left: 0;
         };
+        &:last-of-type {
+            @media screen and (max-width: 768px) {}
+                margin-bottom: 0;
+        }
     .nav-label {
-        width: 0rem;
+        width: 0;
         height: 8rem;
         background-color: $red;
         display: inline-block;
@@ -62,19 +82,75 @@
         font-size: 2.2rem;
         color: white;
         visibility: hidden;
-        text-align: left;
+        text-align: left;        
+        @media screen and (max-width: 1450px) {
+            font-size: 1.8rem;
+        };
+        @media screen and (max-width: 1200px) {
+            font-size: 1.5rem;
+        };
+        @media screen and (max-width: 1000px) {
+            font-size: 1.2rem;
+        };
         p {
             opacity: 0;
+            @media screen and (max-width: 768px) {
+                opacity: 1;
+            };
         }
     };
-    .nav-realisations {
+    .label-active {
+        width: 17vw;
+        height: 8rem;
+        visibility: visible;
+        transition: width 0.6s linear 0.4s;
+        @media screen and (max-width: 768px) {
+            font-size: 1rem;
+            font-weight: 700;
+        };
+        p {
+            opacity: 1;
+        }
+    }
+    .nav-label-mobile {
+        width: 40vw;
+        height: 3rem;
+        line-height: 3rem;
+        color: white;
+        text-align: left;
+        background-color: $red;
+        border-bottom-right-radius: 55px;
+        position: absolute;
+        @media screen and (min-width: 450px) {
+            width: 35vw;
+        };
+        @media screen and (min-width: 550px) {
+            width: 30vw;
+        };
+        @media screen and (min-width: 550px) {
+            width: 25vw;
+        };
+    };
+    .nav-realizations {
         left: 8rem;
+        @media screen and (max-width: 768px) {
+            top: 0;
+            left: 3rem;
+        };
     };
     .nav-technologies {
         left: calc(33.3vw + 8rem);
+        @media screen and (max-width: 768px) {
+            top: 3.5rem;
+            left: 2.9rem;
+        }
     };
     .nav-contact {
         left: calc(66.6vw + 8rem);
+        @media screen and (max-width: 768px) {
+            top: 7rem;
+            left: 2.9rem;
+        }
     };
 };
 }

@@ -12,12 +12,12 @@ class Slide extends Component {
                             <img src={s.img} alt={s.alt}/>
                             <div className='link link-page'>
                                 <a className='links' target='_blank' rel="noopener noreferrer" href={s.website}>
-                                    <i class="link-icon fas fa-globe"/>
+                                    <i className="link-icon fas fa-globe"/>
                                 </a>
                             </div>
                             <div className='link link-github'>
                                 <a className='links' target='_blank' rel="noopener noreferrer" href={s.git}>
-                                    <i class="link-icon fab fa-github"/>
+                                    <i className="link-icon fab fa-github"/>
                                 </a>
                             </div>
                     </div>)}

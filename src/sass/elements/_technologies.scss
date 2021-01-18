@@ -2,6 +2,10 @@
     @include info;
     font-size: 4rem;
     color: white;
+    @media screen and (max-width: 768px) {
+        @include info-mobile;
+        flex-direction: column;
+    };
     .content {
         display: flex;
         flex-direction: column;
@@ -16,16 +20,31 @@
             top: 2rem;
             right: 2rem;
             cursor: pointer;
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            };
         }
         h2 {
             display: inline-block;
             font-weight: 700;
             margin-bottom: 10rem;
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+                margin-bottom: 5rem;
+            };
         }
         span {
             width: 90%;
             display: flex;
             justify-content: space-evenly;
+            @media screen and (max-width: 768px) {
+                width: 80%;
+                flex-wrap: wrap;
+                font-size: 2rem;
+            };
+            i {
+                margin-right: .2rem;
+            };
         }
     }
     .visible {

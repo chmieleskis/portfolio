@@ -4,7 +4,6 @@ import classNames from 'classnames';
 // const classNames = require('classnames');
 
 class Contact extends Component {
-
     handleCopyEmail = () => {
         navigator.clipboard.writeText('m.chmielewski@tut.by')
     };
@@ -27,17 +26,17 @@ class Contact extends Component {
      return (
          <div className={contactClasses}>
              <span className={contentClasses}>
-                <i class="far fa-times-circle" onClick={this.props.handleClose}/>
+                <i className="far fa-times-circle" onClick={this.props.handleClose}/>
                 <h2>Contact</h2>
                 <span>
                     <div onClick={this.handleCopyPhone}>
-                        <i class="fas fa-mobile-alt"/><p>+48 507 212 938</p>
+                        <i className="fas fa-mobile-alt"/><p>+48 507 212 938</p>
                     </div>
                     <div onClick={this.handleCopyEmail}>
-                    <i class="fas fa-at"></i><p>m.chmielewski@tut.by</p>
+                    <i className="fas fa-at"></i><p>m.chmielewski@tut.by</p>
                     </div>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chmieleskis/"><i class="fab fa-github-square"/></a>
-                    <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-linkedin"/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chmieleskis/"><i className="fab fa-github-square"/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/michał-chmielewski-31019b201"><i className="fab fa-linkedin"/></a>
                 </span>
              </span>
          </div>

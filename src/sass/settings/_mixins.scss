@@ -9,3 +9,10 @@
     left: 10%;
     z-index: 100;
 }
+
+@mixin info-mobile {
+    width: 0;
+    height: 0;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}

@@ -18,7 +18,7 @@ class Realizations extends Component {
      return (
          <div className={realizationsClasses}>
              <span className={contentClasses}>
-                <i class="far fa-times-circle" onClick={this.props.handleClose}/>
+                <i className="far fa-times-circle" onClick={this.props.handleClose}/>
                 <h2>Realizations</h2>
                 <Slider/>
             </span>

@@ -6,7 +6,6 @@ import Technologies from './technologies'
 import Contact from './contact'
 
 class MainSection extends Component {
-
     render() {
             return(
                 <div className='mainSection'>
